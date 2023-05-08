@@ -1,0 +1,96 @@
+# depslib dependency file v1.0
+1680537637 source:f:\hr_management\untitled1.c
+
+1683318026 source:f:\hr_management\employee.cpp
+	"Employee.h"
+	"Department.h"
+	<iostream>
+	<string>
+
+1683486765 f:\hr_management\employee.h
+	<string>
+	"Department.h"
+	"Benefits.h"
+	"DentalBenefit.h"
+	"HealthBenefit.h"
+
+1683139335 f:\hr_management\hourlyemployee.h
+	<string>
+	"Employee.h"
+
+1683139335 source:f:\hr_management\hourlyemployee.cpp
+	"HourlyEmployee.h"
+	<iostream>
+
+1683579879 source:f:\hr_management\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string>
+	<unistd.h>
+	"HRsys.h"
+
+1683581794 source:f:\hr_management\hrsys.cpp
+	"HRsys.h"
+	<string>
+
+1683581434 f:\hr_management\hrsys.h
+	"Employee.h"
+	"HourlyEmployee.h"
+	"CommissionEmployee.h"
+	"SalariedEmployee.h"
+	"ManagerEmployee.h"
+	<iostream>
+	<string>
+
+1682546510 source:f:\hr_management\commissionemployee.cpp
+	"CommissionEmployee.h"
+
+1683138231 f:\hr_management\commissionemployee.h
+	"Employee.h"
+	<string>
+	<iostream>
+
+1682953371 f:\hr_management\salariedemployee.h
+	"Employee.h"
+	<string>
+
+1682952907 source:f:\hr_management\salariedemployee.cpp
+	"SalariedEmployee.h"
+	<iostream>
+	<string>
+
+1682953614 f:\hr_management\manageremployee.h
+	"SalariedEmployee.h"
+
+1682953903 source:f:\hr_management\manageremployee.cpp
+	"ManagerEmployee.h"
+	"Employee.h"
+	<iostream>
+
+1683285226 f:\hr_management\department.h
+	<string>
+
+1683316834 source:f:\hr_management\benefits.cpp
+	"Benefits.h"
+	<iostream>
+
+1683318243 f:\hr_management\benefits.h
+
+1683318325 source:f:\hr_management\dentalbenefit.cpp
+	"DentalBenefit.h"
+	<iostream>
+
+1683318026 f:\hr_management\dentalbenefit.h
+	"Benefits.h"
+
+1683318325 source:f:\hr_management\healthbenefit.cpp
+	"HealthBenefit.h"
+	<iostream>
+
+1683316986 f:\hr_management\healthbenefit.h
+	"Benefits.h"
+
+1683318434 source:f:\hr_management\department.cpp
+	"Department.h"
+	<iostream>
+
